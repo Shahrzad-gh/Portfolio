@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  padding: 10px 0 10px 40px;
+  font-size: medium;
+  color: #000;
+  font-weight: 500;
+  position: fixed;
+}
+.navbar-active {
+  width: 100%;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  padding: 10px 0 10px 40px;
+  font-size: medium;
+  color: #000;
+  background-color: #fff;
+  font-weight: 500;
+  position: fixed;
+}
+.navbar::before {
+  content: "";
+}
+.navbar::after {
+  content: "";
+}
+a {
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .nav a {
+    display: block;
+  }
+  .icon {
+    display: block;
+  }
+}
+@media screen and (min-width: 600px) {
+  .nav {
+    display: block !important;
+  }
+}

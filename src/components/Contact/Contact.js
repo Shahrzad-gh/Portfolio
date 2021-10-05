@@ -10,7 +10,7 @@ function Contact() {
       <div className="contact">
         <div>
           <img
-            src="https://image.freepik.com/free-photo/keyword-seo-content-website-tags-search_53876-120179.jpg"
+            src="https://image.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg"
             alt=""
           />
         </div>

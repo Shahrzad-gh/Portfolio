@@ -1,0 +1,21 @@
+.banner {
+  position: relative;
+  z-index: -1;
+  width: auto;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-weight: bolder;
+  color: #fff;
+  font-size: xx-large;
+}

@@ -15,6 +15,7 @@ img {
 }
 .center {
   text-align: center !important;
+  font-size: 20px;
 }
 .profile-pic,
 .profile-content {
@@ -24,6 +25,9 @@ img {
 .familar-with {
   background-color: darkgrey;
   color: #fff;
+  height: 30%;
+  display: block;
+  padding: 20px;
 }
 .container {
   border-radius: 5px;
@@ -48,6 +52,13 @@ img {
 .familar-with ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.familar-with li {
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
 }
 @media screen and (max-width: 600px) {
   .about-more {

@@ -9,22 +9,22 @@ function Skills() {
         <div className="skill-col">
           <p>HTML/CSS</p>
           <div className="container">
-            <div className="col" style={{ width: "60%" }}>
+            <div className="col" style={{ width: "90%" }}>
               90%
             </div>
           </div>
           <p>JavaScript</p>
           <div className="container">
-            <div className="col" style={{ width: "60%" }}>
-              20%
+            <div className="col" style={{ width: "70%" }}>
+              70%
             </div>
           </div>
         </div>
         <div className="skill-col">
           <p>ReactJS</p>
           <div className="container">
-            <div className="col" style={{ width: "40%" }}>
-              40%
+            <div className="col" style={{ width: "80%" }}>
+              80%
             </div>
           </div>
           <p>Material-ui</p>

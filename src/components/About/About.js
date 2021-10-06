@@ -1,10 +1,9 @@
 import React from "react";
 import "./About.css";
-import Skills from "./Skills";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h3 className="center">About Me</h3>
       <p className="center">I love developing</p>
       <p>

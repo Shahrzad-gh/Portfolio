@@ -27,8 +27,16 @@ a {
   padding: 5px;
   margin: 5px;
   display: inline-block;
+  text-decoration: none;
 }
-
+.navbar a:visited,
+a:link {
+  color: #fff;
+}
+.navbar a:hover,
+a:active {
+  color: #000;
+}
 .icon {
   display: none;
 }

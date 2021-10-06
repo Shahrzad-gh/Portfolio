@@ -7,7 +7,6 @@ function Navbar() {
 
   //navbar scroll changeBackground function
   const changeBackground = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 66) {
       setNavbar(true);
     } else {
@@ -39,11 +38,11 @@ function Navbar() {
         <i className="fa fa-bars"></i>
       </a>
       <div className="nav">
-        <a>Home</a>
-        <a>Projects</a>
-        <a>About</a>
-        <a>Skills</a>
-        <a>Contact</a>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

@@ -4,7 +4,9 @@ import "./About.css";
 function Skills() {
   return (
     <>
-      <p className="center">I'm good at</p>
+      <p className="center" id="skills">
+        I'm good at
+      </p>
       <div className="skills">
         <div className="skill-col">
           <p>HTML/CSS</p>

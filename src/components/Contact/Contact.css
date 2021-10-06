@@ -10,6 +10,15 @@
   justify-content: center;
   align-items: center;
 }
+.banner .contact-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 250px;
+  font-weight: bolder;
+  color: #6e6a6a;
+  transform: translate(-50%, -50%);
+}
 
 input,
 textarea {

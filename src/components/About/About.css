@@ -8,14 +8,18 @@
   display: block;
   padding: 30px;
   margin: 20px;
+  font-size: 2vw;
   text-align: justify;
+}
+.skills p {
+  font-size: 2vw;
 }
 img {
   overflow: hidden;
 }
 .center {
   text-align: center !important;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .profile-pic,
 .profile-content {
@@ -23,7 +27,7 @@ img {
   text-align: center;
 }
 .profile-pic img {
-  width: 300px;
+  /* width: 300px; */
   height: auto;
 }
 .familar-with {
@@ -38,9 +42,8 @@ img {
   background-color: darkgray;
   text-align: center;
 }
-
 .skills {
-  padding: 50px;
+  padding: 10px 50px 30px;
   display: flex;
   justify-content: space-around;
 }
@@ -48,10 +51,11 @@ img {
   border-radius: 5px;
   background-color: rgb(3, 46, 46) !important;
   color: #fff;
+  font-size: 2vw;
 }
 .skill-col {
   width: 40%;
-  padding: 10px;
+  padding: 0px 10px;
 }
 .familar-with ul {
   list-style: none;
@@ -60,10 +64,16 @@ img {
   justify-content: center;
 }
 .familar-with li {
-  padding: 5px;
+  padding: 3%;
   margin: 5px;
-  font-size: 30px;
+  font-size: 4vw;
 }
+.project-link {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 600px) {
   .about-more {
     display: block !important;

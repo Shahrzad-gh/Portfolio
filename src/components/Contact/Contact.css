@@ -4,6 +4,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.contact img {
+  text-align: center !important;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -14,7 +17,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 250px;
+  font-size: 20vw;
   font-weight: bolder;
   color: #6e6a6a;
   transform: translate(-50%, -50%);
@@ -36,4 +39,35 @@ textarea {
 }
 i::before {
   margin: 5px;
+}
+
+@media screen and (max-width: 940px) {
+  /* input,
+  textarea {
+    width: 60%;
+  } */
+  /* .contact img {
+    width: 80% !important;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    display: block;
+  }
+  /* .contact-text {
+    font-size: 50px !important;
+  } */
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .contact-text {
+    font-size: 150px !important;
+  } */
+}
+@media screen and (max-width: 320px) {
+  .contact input,
+  textarea {
+    width: 50px;
+  }
 }

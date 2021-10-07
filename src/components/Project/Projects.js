@@ -26,7 +26,13 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
-            </div>{" "}
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
           </div>
           <div className="pro-content">
             <div className="title-style">Title</div>
@@ -40,7 +46,13 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
-            </div>{" "}
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
           </div>
           <div className="pro-content">
             <div className="title-style">Title</div>
@@ -54,7 +66,13 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
-            </div>{" "}
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
           </div>
           <div className="pro-content">
             <div className="title-style">Title</div>
@@ -68,7 +86,13 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
-            </div>{" "}
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
           </div>
           <div className="pro-content">
             <div className="title-style">Title</div>
@@ -82,7 +106,13 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
-            </div>{" "}
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
           </div>
           <div className="pro-content">
             <div className="title-style">Title</div>
@@ -96,6 +126,12 @@ function Projects() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
               quas ducimus ipsam. Quia?
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
             </div>
           </div>
         </div>

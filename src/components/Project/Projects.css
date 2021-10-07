@@ -1,6 +1,6 @@
 .projects {
   display: flex;
-  padding: 30px;
+  /* padding: 30px; */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -8,14 +8,15 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 250px;
+  font-size: 15vw;
   font-weight: bolder;
   color: #6e6a6a;
   transform: translate(-50%, -50%);
 }
 .pro-content {
-  width: 300px;
+  width: 30%;
   margin: 10px;
+  font-size: 2vw;
   border: 1px solid #000;
   text-align: center;
 }
@@ -31,30 +32,56 @@
   text-align: justify;
   background-color: #b6b5b5;
 }
-
-@media screen and (max-width: 900px) {
-  .pro-content {
-    min-width: 400px;
-  }
-  .work-text {
-    font-size: 150px !important;
-  }
+.location-pic {
+  width: 250px;
+  border: 1px solid gray;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 320px) {
   .pro-content {
-    min-width: 500px;
-  }
-  .work-text {
-    font-size: 80px !important;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .pro-content {
-    min-width: 500px;
+    width: 250px;
   }
   .work-text {
     font-size: 50px !important;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .pro-content {
+    width: 70%;
+  }
+  /* .work-text {
+    font-size: 50px !important;
+  } */
+  .location-pic {
+    width: 250px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .pro-content {
+    width: 40%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .pro-content {
+    width: 40%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .pro-content {
+    width: 30%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .pro-content {
+    width: 20% !important;
   }
 }

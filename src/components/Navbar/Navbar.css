@@ -6,6 +6,7 @@
   color: #fff;
   font-weight: 500;
   position: fixed;
+  z-index: 1;
 }
 .navbar-active {
   width: 100%;
@@ -16,6 +17,7 @@
   background-color: #fff;
   font-weight: 500;
   position: fixed;
+  z-index: 1;
 }
 .navbar::before {
   content: "";
@@ -26,22 +28,41 @@
 a {
   padding: 5px;
   margin: 5px;
+  font-size: 1vw !important;
   display: inline-block;
   text-decoration: none;
 }
-.navbar a:visited,
-a:link {
+.navbar a:link {
   color: #fff;
 }
-.navbar a:hover,
-a:active {
+.navbar a:visited {
+  color: #fff;
+}
+.navbar a:hover {
   color: #000;
 }
+.navbar-active a:link {
+  color: #000;
+}
+.navbar-active a:visited {
+  color: #000;
+}
+.navbar-active a:hover {
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
 .icon {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (min-width: 600px) {
+  .nav {
+    display: block !important;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .nav {
     display: none;
   }
@@ -50,10 +71,22 @@ a:active {
   }
   .icon {
     display: block;
+    width: fit-content;
   }
 }
-@media screen and (min-width: 600px) {
-  .nav {
-    display: block !important;
-  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

@@ -68,6 +68,9 @@ i::before {
 @media screen and (max-width: 320px) {
   .contact input,
   textarea {
-    width: 50px;
+    width: 90%;
+  }
+  .info i {
+    font-size: 15px;
   }
 }

@@ -68,6 +68,7 @@ a {
   }
   .nav a {
     display: block;
+    font-size: 15px !important;
   }
   .icon {
     font-size: 15px !important;
@@ -90,4 +91,17 @@ a {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+}
+/* Extra large devices (large laptops and desktops, 2560px and up) */
+@media only screen and (min-width: 2560px) {
+  .navbar,
+  .navbar-active {
+    text-align: center;
+  }
+  .navbar-active a {
+    padding: 5px 35px;
+  }
+  .navbar a {
+    padding: 5px 35px;
+  }
 }

@@ -11,7 +11,7 @@ function Projects() {
         />
         <div className="work-text">PORTFOLIO</div>
       </div>
-      <div style={{ padding: "20px" }}>
+      <div id="project">
         <p className="center">My Works</p>
         <div className="projects">
           <div className="pro-content">

@@ -1,10 +1,13 @@
+.header {
+  width: -webkit-fill-available;
+}
 .banner {
   position: relative;
-  width: auto;
   height: 100vh;
+  width: -webkit-fill-available;
 }
 p {
-  font-size: 2vw;
+  font-size: 15px;
 }
 img {
   width: 100%;
@@ -18,5 +21,5 @@ img {
   left: 5%;
   font-weight: bolder;
   color: #fff;
-  font-size: xx-large;
+  font-size: 2vw;
 }

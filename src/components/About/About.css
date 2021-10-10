@@ -5,11 +5,15 @@
 }
 
 .about {
-  display: block;
-  padding: 30px;
-  margin: 20px;
-  font-size: 2vw;
+  /* max-width: 1366px; */
+  padding: 50px;
   text-align: justify;
+  align-self: center;
+  background-color: #fff;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    transform 0.2s cubic-bezier(0.4, 0, 1, 1),
+    -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    -webkit-transform 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
 .skills p {
   font-size: 2vw;
@@ -19,7 +23,7 @@ img {
 }
 .center {
   text-align: center !important;
-  /* font-size: 20px; */
+  font-size: 25px;
 }
 .profile-pic,
 .profile-content {
@@ -42,6 +46,14 @@ img {
   background-color: darkgray;
   text-align: center;
 }
+#skills {
+  background-color: #fff;
+  padding: 50px;
+  width: -webkit-fill-available;
+}
+/* #skills:not(:last-child) {
+  padding: 50px;
+} */
 .skills {
   padding: 10px 50px 30px;
   display: flex;
@@ -66,7 +78,7 @@ img {
 .familar-with li {
   padding: 3%;
   margin: 5px;
-  font-size: 4vw;
+  font-size: 35px;
 }
 .project-link {
   display: flex;
@@ -78,6 +90,7 @@ img {
   .about-more {
     display: block !important;
     text-align: -webkit-center;
+    font-size: 20px;
   }
   .skill-col {
     width: 100%;
@@ -91,5 +104,37 @@ img {
   }
   .familar-with ul {
     display: inline-block;
+  }
+  .skill-col p {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .skills p {
+    font-size: 15px !important;
+  }
+  #skills {
+    padding: unset !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .familar-with li {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .about {
+    margin: 50px;
+    max-width: 1366px;
+  }
+  .familar-with p {
+    font-size: 50px;
+  }
+  .familar-with li {
+    font-size: 40px;
+  }
+  #skills {
+    margin: 0 0 50px;
+    width: 1366px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   }
 }

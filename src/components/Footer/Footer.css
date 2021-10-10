@@ -4,6 +4,8 @@
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   padding: 5px;
   align-items: center;
+  background-color: #fff;
+  width: -webkit-fill-available;
 }
 .footer p {
   font-size: 1vw;
@@ -11,4 +13,10 @@
 .footer ul {
   display: flex;
   list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer p {
+    font-size: 10px;
+  }
 }

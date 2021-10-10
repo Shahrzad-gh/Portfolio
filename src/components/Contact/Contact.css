@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #fff;
 }
 .contact img {
   text-align: center !important;
@@ -17,7 +18,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 20vw;
+  font-size: 10vw;
   font-weight: bolder;
   color: #6e6a6a;
   transform: translate(-50%, -50%);
@@ -35,6 +36,7 @@ textarea {
   flex-direction: column;
 }
 .info i {
+  font-size: 15px;
   padding: 5px;
 }
 i::before {
@@ -72,5 +74,17 @@ i::before {
   }
   .info i {
     font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .contact {
+    width: 1366px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+
+    margin: 50px 0;
+  }
+  #contact {
+    height: 25vh !important;
   }
 }

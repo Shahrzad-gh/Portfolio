@@ -15,8 +15,11 @@
     -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
     -webkit-transform 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
+.about p {
+  font-size: 1em;
+}
 .skills p {
-  font-size: 2vw;
+  font-size: 1em;
 }
 .skill-item {
   width: 50%;
@@ -51,8 +54,8 @@ img {
   text-align: center;
 }
 #skills {
-  background-color: #252a34;
-  color: #eaeaea;
+  /* background-color: #252a34; */
+  color: #252a34;
   padding: 50px;
   width: -webkit-fill-available;
 }
@@ -66,9 +69,9 @@ img {
 }
 .col {
   border-radius: 5px;
-  background-color: rgb(3, 46, 46) !important;
+  background-color: #ff2e63 !important;
   color: #fff;
-  font-size: 2vw;
+  font-size: 1em;
 }
 .skill-col {
   width: 100%;
@@ -102,6 +105,12 @@ img {
   }
   .skills {
     flex-direction: column;
+  }
+  .skills p {
+    font-size: 2em;
+  }
+  .col {
+    font-size: 2em;
   }
   .profile-pic,
   .profile-content {

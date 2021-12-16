@@ -5,6 +5,7 @@
   position: relative;
   height: 100vh;
   width: -webkit-fill-available;
+  background-color: #252a34;
 }
 p {
   font-size: 15px;
@@ -14,12 +15,15 @@ img {
   height: 100%;
   object-fit: cover;
 }
+.banner img {
+  display: none;
+}
 
 .welcome {
   position: absolute;
   top: 50%;
   left: 5%;
   font-weight: bolder;
-  color: #fff;
+  color: #cdcbd6;
   font-size: 2vw;
 }

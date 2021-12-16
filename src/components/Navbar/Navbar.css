@@ -3,7 +3,7 @@
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   padding: 10px 0 10px 40px;
   font-size: medium;
-  color: #fff;
+  color: #eaeaea;
   font-weight: 500;
   position: fixed;
   z-index: 1;
@@ -13,8 +13,8 @@
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   padding: 10px 0 10px 40px;
   font-size: medium;
-  color: #000;
-  background-color: #fff;
+  color: #252a34;
+  background-color: #eaeaea;
   font-weight: 500;
   position: fixed;
   z-index: 1;
@@ -33,19 +33,19 @@ a {
   text-decoration: none;
 }
 .navbar a:link {
-  color: #fff;
+  color: #eaeaea;
 }
 .navbar a:visited {
-  color: #fff;
+  color: #eaeaea;
 }
 .navbar a:hover {
-  color: #000;
+  color: #252a34;
 }
 .navbar-active a:link {
-  color: #000;
+  color: #252a34;
 }
 .navbar-active a:visited {
-  color: #000;
+  color: #252a34;
 }
 .navbar-active a:hover {
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);

@@ -15,7 +15,7 @@ function Projects() {
         <p className="center">My Works</p>
         <div className="projects">
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">Shin-dealer</div>
             <div>
               <img
                 alt="pro1"
@@ -35,7 +35,7 @@ function Projects() {
             </div>
           </div>
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">H2H</div>
             <div>
               <img
                 alt="pro2"
@@ -55,7 +55,7 @@ function Projects() {
             </div>
           </div>
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">Blog-psychologist</div>
             <div>
               <img
                 alt="pro3"
@@ -75,7 +75,7 @@ function Projects() {
             </div>
           </div>
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">live-chat</div>
             <div>
               <img
                 alt="pro4"
@@ -95,7 +95,7 @@ function Projects() {
             </div>
           </div>
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">movie-hub</div>
             <div>
               <img
                 alt="pro5"
@@ -115,7 +115,27 @@ function Projects() {
             </div>
           </div>
           <div className="pro-content">
-            <div className="title-style">Title</div>
+            <div className="title-style">time-flutter</div>
+            <div>
+              <img
+                alt="pro6"
+                src="https://image.freepik.com/free-photo/coding-man_1098-18084.jpg"
+              />
+            </div>
+            <div className="content-style">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
+              quas ducimus ipsam. Quia?
+            </div>
+            <div className="project-link">
+              <div>Link</div>
+              <div>
+                <i className="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+          <div className="pro-content">
+            <div className="title-style">google-search</div>
             <div>
               <img
                 alt="pro6"

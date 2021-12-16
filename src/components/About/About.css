@@ -9,7 +9,7 @@
   padding: 50px;
   text-align: justify;
   align-self: center;
-  background-color: #fff;
+  background-color: #eaeaea;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
     transform 0.2s cubic-bezier(0.4, 0, 1, 1),
     -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
@@ -17,6 +17,10 @@
 }
 .skills p {
   font-size: 2vw;
+}
+.skill-item {
+  width: 50%;
+  margin: 0 10px;
 }
 img {
   overflow: hidden;
@@ -47,7 +51,8 @@ img {
   text-align: center;
 }
 #skills {
-  background-color: #fff;
+  background-color: #252a34;
+  color: #eaeaea;
   padding: 50px;
   width: -webkit-fill-available;
 }
@@ -66,7 +71,7 @@ img {
   font-size: 2vw;
 }
 .skill-col {
-  width: 40%;
+  width: 100%;
   padding: 0px 10px;
 }
 .familar-with ul {

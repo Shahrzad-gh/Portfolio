@@ -9,9 +9,11 @@ function Home() {
           alt="headerPic"
         />
         <div className="welcome">
-          Hi, my name is Shahrzad and I'm a Web Developer.
-          <br />
-          Let's make ....
+          <p>
+            Hi, my name is Shahrzad and I'm a Web Developer
+            <br />
+            Let's make .....
+          </p>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
   background-color: #252a34;
 }
 p {
-  font-size: 15px;
+  font-size: 2em;
 }
 img {
   width: 100%;
@@ -21,9 +21,40 @@ img {
 
 .welcome {
   position: absolute;
-  top: 50%;
-  left: 5%;
   font-weight: bolder;
   color: #cdcbd6;
-  font-size: 2vw;
+  /* font-size: 2vw; */
+  top: 50%;
+  left: 5%;
+
+  animation: welcomeInfo ease 3s;
+  -webkit-animation: welcomeInfo ease 3s;
+  -moz-animation: welcomeInfo ease 3s;
+  -o-animation: welcomeInfo ease 3s;
+  -ms-animation: welcomeInfo ease 3s;
+}
+
+@keyframes welcomeInfo {
+  from {
+    top: 100%;
+    opacity: 0;
+    transition-timing-function: ease;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+
+    transition-timing-function: ease;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome p {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .welcome p {
+    font-size: 4em;
+  }
 }

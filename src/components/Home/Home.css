@@ -1,10 +1,13 @@
 .header {
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 .banner {
   position: relative;
   height: 100vh;
   width: -webkit-fill-available;
+  width: -moz-available;
+
   background-color: #252a34;
 }
 p {

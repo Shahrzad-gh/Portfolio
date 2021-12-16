@@ -58,6 +58,7 @@ img {
   color: #252a34;
   padding: 50px;
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 /* #skills:not(:last-child) {
   padding: 50px;

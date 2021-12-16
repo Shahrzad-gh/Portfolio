@@ -6,6 +6,7 @@
   align-items: center;
   background-color: #fff;
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 .footer p {
   font-size: 1vw;

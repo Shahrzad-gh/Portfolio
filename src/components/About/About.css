@@ -2,11 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .about {
   /* max-width: 1366px; */
   padding: 50px;
+  height: calc(100vh - 120px);
   text-align: justify;
   align-self: center;
   background-color: #eaeaea;
@@ -32,13 +34,16 @@ img {
   text-align: center !important;
   font-size: 25px;
 }
-.profile-pic,
-.profile-content {
-  width: 50%;
+.profile-pic {
+  width: auto;
+  height: 50%;
   text-align: center;
 }
+.profile-content {
+  width: 50%;
+}
 .profile-pic img {
-  /* width: 300px; */
+  width: 300px;
   height: auto;
 }
 .familar-with {
@@ -46,7 +51,9 @@ img {
   color: #fff;
   height: 30%;
   display: block;
-  padding: 20px;
+  padding: 50px;
+  width: calc(100vw - 100px);
+  max-width: 1366px;
 }
 .container {
   border-radius: 5px;
@@ -54,8 +61,8 @@ img {
   text-align: center;
 }
 #skills {
-  /* background-color: #252a34; */
-  color: #252a34;
+  background-color: #252a34;
+  color: #eaeaea;
   padding: 50px;
   width: -webkit-fill-available;
   width: -moz-available;
@@ -93,6 +100,50 @@ img {
   display: flex;
   padding: 5px;
   justify-content: space-between;
+}
+.profile-pic {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  animation: aboutpic ease 3s;
+  -webkit-animation: aboutpic ease 3s;
+  -moz-animation: aboutpic ease 3s;
+  -o-animation: aboutpic ease 3s;
+  -ms-animation: aboutpic ease 3s;
+}
+.profile-content {
+  position: absolute;
+  top: 100px;
+
+  right: 5%;
+  animation: aboutcontent ease 3s;
+  -webkit-animation: aboutcontent ease 3s;
+  -moz-animation: aboutcontent ease 3s;
+  -o-animation: aboutcontent ease 3s;
+  -ms-animation: aboutcontent ease 3s;
+}
+
+@keyframes aboutcontent {
+  from {
+    opacity: 0;
+    right: -50%;
+    transition-timing-function: ease;
+  }
+  to {
+    opacity: 1;
+    transition-timing-function: ease;
+  }
+}
+@keyframes aboutpic {
+  from {
+    opacity: 0;
+    left: -50%;
+    transition-timing-function: ease;
+  }
+  to {
+    opacity: 1;
+    transition-timing-function: ease;
+  }
 }
 
 @media screen and (max-width: 600px) {

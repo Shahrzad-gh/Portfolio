@@ -39,7 +39,12 @@ a {
   color: #eaeaea;
 }
 .navbar a:hover {
-  color: #252a34;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ff2e63;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: #ff2e63; /* Safari */
+  text-decoration-style: solid;
 }
 .navbar-active a:link {
   color: #252a34;
@@ -48,7 +53,7 @@ a {
   color: #252a34;
 }
 .navbar-active a:hover {
-  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  box-shadow: 0 1px 6px 0 #ff2e627c;
 }
 
 .icon {

@@ -34,9 +34,9 @@ function Navbar() {
 
   return (
     <div className={navbar ? "navbar-active" : "navbar"}>
-      <a href={void 0} className="icon" onClick={handleMobileMenu}>
+      <button href={void 0} className="icon" onClick={handleMobileMenu}>
         <i className="fa fa-bars"></i>
-      </a>
+      </button>
       <div className="nav">
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>

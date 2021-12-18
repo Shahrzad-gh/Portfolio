@@ -5,7 +5,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 function Contact() {
   const recaptchaRef = useRef();
   const recaptchaKey = "";
-  recaptchaRef.current.reset();
+  //recaptchaRef.current.reset();
   const [recaptchaToken, setReCaptchaToken] = useState();
 
   const updateRecaptchaToken = (token) => {
@@ -44,12 +44,16 @@ function Contact() {
               cols="50"
               placeholder="Message"
             ></textarea>
-            <ReCAPTCHA
+            {/* <ReCAPTCHA
               ref={recaptchaRef}
               sitekey={recaptchaKey}
               onChange={updateRecaptchaToken}
-            />
-            <input type="button" value="SEND MESSAGE"></input>
+            /> */}
+            <input
+              className="submit-btn"
+              type="button"
+              value="SEND MESSAGE"
+            ></input>
           </form>
         </div>
       </div>

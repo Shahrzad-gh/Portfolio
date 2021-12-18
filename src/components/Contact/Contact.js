@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
-
+// import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
 function Contact() {
+  const recaptchaRef = useRef();
+  const recaptchaKey = "";
+  recaptchaRef.current.reset();
+  const [recaptchaToken, setReCaptchaToken] = useState();
+
+  const updateRecaptchaToken = (token) => {
+    setReCaptchaToken(token);
+  };
+
   return (
     <>
       <div className="banner" style={{ height: "50vh" }} id="contact">
@@ -34,6 +44,11 @@ function Contact() {
               cols="50"
               placeholder="Message"
             ></textarea>
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey={recaptchaKey}
+              onChange={updateRecaptchaToken}
+            />
             <input type="button" value="SEND MESSAGE"></input>
           </form>
         </div>

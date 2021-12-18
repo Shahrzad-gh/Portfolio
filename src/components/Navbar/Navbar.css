@@ -52,9 +52,9 @@ a {
 .navbar-active a:visited {
   color: #252a34;
 }
-.navbar-active a:hover {
+/* .navbar-active a:hover {
   box-shadow: 0 1px 6px 0 #ff2e627c;
-}
+} */
 
 .icon {
   display: none;

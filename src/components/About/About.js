@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./About.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="about" id="about">
       <h3 className="center">About Me</h3>
@@ -15,7 +19,7 @@ function About() {
         pariatur enim ratione!
       </p>
       <div className="about-more">
-        <div className="profile-pic">
+        <div data-aos="fade-right" className="profile-pic">
           <p>Shahrzad Ghahvehrokhi</p>
           <img
             src="https://image.freepik.com/free-photo/keyword-seo-content-website-tags-search_53876-120179.jpg"
@@ -23,7 +27,7 @@ function About() {
             title="Shahrzad Ghahvehrokhi"
           />
         </div>
-        <div className="profile-content">
+        <div data-aos="fade-left" className="profile-content">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
             eius ut sequi tempore non voluptas dolorem repudiandae maxime

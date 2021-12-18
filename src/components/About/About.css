@@ -17,6 +17,9 @@
     -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
     -webkit-transform 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
+.about ::-webkit-scrollbar {
+  display: none;
+}
 .about p {
   font-size: 1em;
 }
@@ -151,6 +154,11 @@ img {
     display: block !important;
     text-align: -webkit-center;
     font-size: 20px;
+  }
+
+  .about {
+    padding: 20px;
+    overflow-y: hidden;
   }
   .skill-col,
   .skill-item {

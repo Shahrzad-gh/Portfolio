@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Projects.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Projects() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="banner" style={{ height: "50vh" }} id="projects">
@@ -14,7 +18,7 @@ function Projects() {
       <div id="project">
         <p className="center">My Works</p>
         <div className="projects">
-          <div className="pro-content">
+          <div data-aos="flip-right" className="pro-content">
             <div className="title-style">Shin-dealer</div>
             <div>
               <img
@@ -28,13 +32,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-right" className="pro-content">
             <div className="title-style">H2H</div>
             <div>
               <img
@@ -48,13 +61,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-right" className="pro-content">
             <div className="title-style">Blog-psychologist</div>
             <div>
               <img
@@ -68,13 +90,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-right" className="pro-content">
             <div className="title-style">live-chat</div>
             <div>
               <img
@@ -88,13 +119,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-left" className="pro-content">
             <div className="title-style">movie-hub</div>
             <div>
               <img
@@ -108,13 +148,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-up" className="pro-content">
             <div className="title-style">time-flutter</div>
             <div>
               <img
@@ -128,13 +177,22 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>{" "}
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>{" "}
               </div>
             </div>
           </div>
-          <div className="pro-content">
+          <div data-aos="flip-right" className="pro-content">
             <div className="title-style">google-search</div>
             <div>
               <img
@@ -148,9 +206,18 @@ function Projects() {
               quas ducimus ipsam. Quia?
             </div>
             <div className="project-link">
-              <div>Link</div>
               <div>
-                <i className="fab fa-github"></i>
+                <a className="link" href="#">
+                  Demo
+                </a>
+              </div>
+              <div>
+                <a
+                  className="link"
+                  href="https://github.com/Shahrzad-gh/search-page"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
               </div>
             </div>
           </div>

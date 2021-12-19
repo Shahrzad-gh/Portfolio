@@ -3,10 +3,18 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.link {
+  color: #6e6a6a;
+  text-decoration: none;
+}
+.link:visited {
+  color: #6e6a6a;
+}
 #project {
   padding: 50px;
   background-color: #fff;
 }
+
 .banner .work-text {
   position: absolute;
   top: 50%;

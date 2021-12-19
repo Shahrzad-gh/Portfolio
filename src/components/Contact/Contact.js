@@ -30,9 +30,15 @@ function Contact() {
           />
         </div>
         <div className="info">
-          <i className="fas fa-map-marker-alt">Iran</i>
-          <i className="fas fa-phone-alt">+98 935 1234567</i>
-          <i className="fas fa-envelope">gh.shahrzad@gmail.com</i>
+          <i className="fas fa-map-marker-alt">
+            <span>Iran</span>
+          </i>
+          <i className="fas fa-phone-alt">
+            <span>+98 935 1234567</span>
+          </i>
+          <i className="fas fa-envelope">
+            <span>gh.shahrzad@gmail.com</span>
+          </i>
         </div>
         <div>
           <form className="contact-form">

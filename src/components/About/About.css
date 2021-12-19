@@ -103,6 +103,7 @@ img {
   display: flex;
   padding: 5px;
   justify-content: space-between;
+  margin: 0 10px;
 }
 /* .profile-pic {
   position: absolute;

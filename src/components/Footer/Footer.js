@@ -8,14 +8,26 @@ function Footer() {
       </div>
       <div>
         <ul>
-          <li href="#">
-            <i className="fab fa-linkedin"></i>
+          <li>
+            <a
+              className="link"
+              href="https://www.linkedin.com/in/shahrzad-ghahvehrokhi/"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
           </li>
-          <li href="#">
-            <i className="fab fa-github"></i>
+          <li>
+            <a className="link" href="https://github.com/Shahrzad-gh/">
+              <i className="fab fa-github"></i>
+            </a>
           </li>
-          <li href="#">
-            <i className="fab fa-stack-overflow"></i>
+          <li>
+            <a
+              className="link"
+              href="https://stackoverflow.com/users/5289320/sharzad-gh"
+            >
+              <i className="fab fa-stack-overflow"></i>
+            </a>
           </li>
         </ul>
       </div>

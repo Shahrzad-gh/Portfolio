@@ -54,9 +54,8 @@ img {
   color: #fff;
   height: 30%;
   display: block;
-  padding: 50px;
-  width: calc(100vw - 100px);
-  max-width: 1366px;
+  padding: 50px 0;
+  width: 100%;
 }
 .container {
   border-radius: 5px;
@@ -194,6 +193,7 @@ img {
     padding: unset !important;
   }
 }
+
 @media screen and (min-width: 768px) {
   .familar-with li {
     font-size: 20px;
@@ -209,6 +209,8 @@ img {
   }
   .familar-with {
     margin-bottom: 50px;
+    max-width: 1366px;
+    padding: 50px;
   }
   .familar-with li {
     font-size: 40px;

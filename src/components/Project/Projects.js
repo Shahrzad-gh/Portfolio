@@ -40,7 +40,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Shin-dealer"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}
@@ -69,7 +69,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Hand-To-Hand"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}
@@ -98,7 +98,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Blog-Psycology"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}
@@ -127,7 +127,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Livechat"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}
@@ -156,7 +156,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Movie-hub"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}
@@ -185,7 +185,7 @@ function Projects() {
               <div>
                 <a
                   className="link"
-                  href="https://github.com/Shahrzad-gh/search-page"
+                  href="https://github.com/Shahrzad-gh/Weather-Flutter"
                 >
                   <i className="fab fa-github"></i>
                 </a>{" "}

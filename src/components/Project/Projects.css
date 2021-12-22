@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .link {
   color: #6e6a6a;
@@ -12,7 +12,7 @@
 }
 #project {
   padding: 50px;
-  background-color: #fff;
+  background-color: #eaeaea;
 }
 
 .banner .work-text {
@@ -30,7 +30,8 @@
   /* border: 1px solid #000; */
   border-radius: 15px;
   text-align: center;
-  background: #f5f5f5;
+  background: #252a34;
+  color: #eaeaea;
 }
 .pro-content img {
   height: 200px;

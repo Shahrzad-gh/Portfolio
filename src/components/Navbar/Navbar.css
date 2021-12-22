@@ -60,12 +60,16 @@
 /* .navbar-active a:hover {
   box-shadow: 0 1px 6px 0 #ff2e627c;
 } */
-
+.navbar i {
+  color: #eaeaea;
+}
+.navbar-active i {
+  color: #252a34;
+}
 .icon {
   display: none;
   background-color: transparent;
   border: none;
-  color: #eaeaea;
 }
 
 /* @media screen and (min-width: 600px) {

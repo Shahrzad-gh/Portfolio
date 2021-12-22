@@ -38,6 +38,7 @@
 }
 .navbar a:link {
   color: #eaeaea;
+  font-size: 1vw;
 }
 .navbar a:visited {
   color: #eaeaea;

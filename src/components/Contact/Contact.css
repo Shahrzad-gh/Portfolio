@@ -1,5 +1,5 @@
 .contact {
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -80,6 +80,11 @@ textarea:focus {
   }
   .contact-text {
     font-size: 50px !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  .contact {
+    display: inline;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */

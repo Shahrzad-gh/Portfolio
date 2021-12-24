@@ -10,9 +10,9 @@ function Home() {
         />
         <div className="welcome">
           <p>
-            Hi, my name is Shahrzad and I'm a Web Developer
+            Hello, My name is Sharzad and I'm a Web Developer
             <br />
-            Let's make .....
+            Let's make amazing things...
           </p>
         </div>
       </div>

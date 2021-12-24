@@ -27,9 +27,8 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Online shop</p>
+              ReactJs - Redux - MongoDb- NodeJs - Express - JWT
             </div>
             <div className="project-link">
               <div>
@@ -56,9 +55,7 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>SocialMedia application</p> ReactJs- Redux - Firebase
             </div>
             <div className="project-link">
               <div>
@@ -85,9 +82,8 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Blog</p>
+              Redux-toolkit - MongoDb- NodeJs - Express - JWT
             </div>
             <div className="project-link">
               <div>
@@ -114,9 +110,8 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Chat</p>
+              ReactJs - Redux - MongoDb- NodeJs - Express - Soket.o
             </div>
             <div className="project-link">
               <div>
@@ -143,9 +138,7 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Movie Info</p>
             </div>
             <div className="project-link">
               <div>
@@ -172,9 +165,8 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Time</p>
+              Flutter
             </div>
             <div className="project-link">
               <div>
@@ -201,9 +193,8 @@ function Projects() {
               />
             </div>
             <div className="content-style">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, voluptatibus nisi cum eligendi repudiandae illo aliquid
-              quas ducimus ipsam. Quia?
+              <p>Search engine</p>
+              Google Api
             </div>
             <div className="project-link">
               <div>

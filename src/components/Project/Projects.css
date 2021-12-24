@@ -32,6 +32,9 @@
   text-align: center;
   background: #252a34;
   color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .pro-content img {
   height: 200px;
@@ -55,6 +58,12 @@
   border: 1px solid gray;
 }
 
+.project-link {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  margin: 0 10px;
+}
 /* @media screen and (max-width: 320px) {
   .pro-content {
     width: 250px;

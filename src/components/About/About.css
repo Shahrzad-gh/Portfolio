@@ -98,11 +98,8 @@ img {
   margin: 5px;
   font-size: 35px;
 }
-.project-link {
-  display: flex;
-  padding: 5px;
-  justify-content: space-between;
-  margin: 0 10px;
+.aboutme {
+  padding: 50px;
 }
 /* .profile-pic {
   position: absolute;

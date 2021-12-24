@@ -10,13 +10,10 @@ function About() {
     <div className="about" id="about">
       <h3 className="center">About Me</h3>
       <p className="center">I love developing</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea nam
-        neque nesciunt odio non minima, amet corporis obcaecati repellat
-        voluptatum, laudantium quisquam quam? Tempore sint saepe aut quibusdam
-        corrupti illo molestias totam eveniet dicta fugiat dolore excepturi
-        voluptatum cum veniam, maiores quia consectetur magnam ipsa quas
-        pariatur enim ratione!
+      <p className="aboutme">
+        I have diverse skills ranging from design to <b>HTML</b>, <b>CSS</b>,{" "}
+        <b>JavaScript</b>, and <b>Reactjs</b>. I am an enthusiastic learner and
+        motivated who can learn and work with new technologies.
       </p>
       <div className="about-more">
         <div data-aos="fade-right" className="profile-pic">
@@ -29,9 +26,13 @@ function About() {
         </div>
         <div data-aos="fade-left" className="profile-content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-            eius ut sequi tempore non voluptas dolorem repudiandae maxime
-            voluptate dolores.
+            🔭 I’m currently working on
+            <a className="link" href="https://github.com/Shahrzad-gh/Portfolio">
+              ⚡Portfolio
+            </a>{" "}
+            <br />
+            🌱 I’m currently learning Flutter <br />
+            👯 I’m looking to collaborate on React projects
           </p>
         </div>
       </div>

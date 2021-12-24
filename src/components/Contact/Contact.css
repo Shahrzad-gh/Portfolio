@@ -69,10 +69,15 @@ textarea:focus {
 .submit-btn:disabled {
   background-color: #6e6a6a;
 }
-.contact-res-mess {
-  border: 1px solid #ff2e63;
-  background-color: #eaeaea;
-  color: #252a34;
+.success-mess-res {
+  background-color: green;
+  color: #eaeaea;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.failed-mess-res {
+  background-color: red;
+  color: #eaeaea;
   padding: 10px;
   margin-bottom: 10px;
 }

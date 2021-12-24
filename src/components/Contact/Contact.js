@@ -2,9 +2,11 @@ import React, { useRef, useState } from "react";
 import "./Contact.css";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+import dotenv from "dotenv";
 
 function Contact() {
-  const formId = "Ov1579Kb";
+  dotenv.config();
+  const formId = process.env.REACT_APP_FORMSPARKID;
   const formSparkUrl = `https://submit-form.com/${formId}`;
   const recaptchaKey = "x";
   const recaptchaRef = useRef;
@@ -34,6 +36,7 @@ function Contact() {
       const result = await axios.post(formSparkUrl, payload);
       console.log(result);
       setSubmitMessage({
+        class: "success-mess-res",
         text: "Thanks, someone will be in touch shortly.",
       });
       // setFormState(initialFormState);
@@ -41,8 +44,8 @@ function Contact() {
     } catch (error) {
       console.log(error);
       setSubmitMessage({
-        class: "bg-red-500",
-        text: "Sorry, there was a problem. Please try again or contact support.",
+        class: "failed-mess-res",
+        text: "Sorry, there was a problem. Please try again.",
       });
     }
   };
@@ -85,7 +88,7 @@ function Contact() {
         </div>
         <div>
           {submitMessage && (
-            <div className="contact-res-mess">{submitMessage.text}</div>
+            <div className={`${submitMessage.class}`}>{submitMessage.text}</div>
           )}
           <form className="contact-form" onSubmit={submitForm}>
             <input
@@ -106,7 +109,6 @@ function Contact() {
               type="textarea"
               rows="10"
               cols="50"
-              na
               placeholder="Message"
             ></textarea>
             {/* <ReCAPTCHA
@@ -118,7 +120,7 @@ function Contact() {
               disabled={submitting}
               className="submit-btn"
               type="submit"
-              value="SEND MESSAGE"
+              value={submitting ? "SUBMITTING..." : "SEND MESSAGE"}
             ></input>
           </form>
         </div>

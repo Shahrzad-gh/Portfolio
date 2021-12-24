@@ -1,12 +1,55 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
-// import axios from "axios";
+import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
+
 function Contact() {
-  const recaptchaRef = useRef();
-  const recaptchaKey = "";
-  //recaptchaRef.current.reset();
+  const formId = "Ov1579Kb";
+  const formSparkUrl = `https://submit-form.com/${formId}`;
+  const recaptchaKey = "x";
+  const recaptchaRef = useRef;
+
+  const [formState, setFormState] = useState({
+    email: "",
+    name: "",
+    message: "",
+  });
+  const [submitting, setSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState();
   const [recaptchaToken, setReCaptchaToken] = useState();
+
+  const submitForm = async (event) => {
+    event.preventDefault();
+    setSubmitting(true);
+    await postSubmission();
+    setSubmitting(false);
+  };
+
+  const postSubmission = async () => {
+    const payload = {
+      ...formState,
+      // "g-recaptcha-response": recaptchaToken,
+    };
+    try {
+      const result = await axios.post(formSparkUrl, payload);
+      console.log(result);
+      setSubmitMessage({
+        text: "Thanks, someone will be in touch shortly.",
+      });
+      // setFormState(initialFormState);
+      // recaptchaRef.current.reset();
+    } catch (error) {
+      console.log(error);
+      setSubmitMessage({
+        class: "bg-red-500",
+        text: "Sorry, there was a problem. Please try again or contact support.",
+      });
+    }
+  };
+
+  const updateFormControl = (e) => {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
+  };
 
   const updateRecaptchaToken = (token) => {
     setReCaptchaToken(token);
@@ -41,23 +84,40 @@ function Contact() {
           </i>
         </div>
         <div>
-          <form className="contact-form">
-            <input type="email" placeholder="Email"></input>
-            <input type="text" placeholder="Name"></input>
+          {submitMessage && (
+            <div className="contact-res-mess">{submitMessage.text}</div>
+          )}
+          <form className="contact-form" onSubmit={submitForm}>
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              onChange={updateFormControl}
+            ></input>
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              onChange={updateFormControl}
+            ></input>
             <textarea
+              name="message"
+              onChange={updateFormControl}
               type="textarea"
               rows="10"
               cols="50"
+              na
               placeholder="Message"
             ></textarea>
             {/* <ReCAPTCHA
-              ref={recaptchaRef}
+              // ref={recaptchaRef}
               sitekey={recaptchaKey}
               onChange={updateRecaptchaToken}
             /> */}
             <input
+              disabled={submitting}
               className="submit-btn"
-              type="button"
+              type="submit"
               value="SEND MESSAGE"
             ></input>
           </form>

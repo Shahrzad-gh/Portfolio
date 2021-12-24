@@ -8,6 +8,7 @@
 .about {
   /* max-width: 1366px; */
   padding: 50px;
+  width: calc(100% - 100px);
   /* height: calc(100vh - 120px); */
   text-align: justify;
   align-self: center;
@@ -22,6 +23,7 @@
 }
 .about p {
   font-size: 1em;
+  text-align: center;
 }
 .skills p {
   font-size: 1em;
@@ -154,8 +156,9 @@ img {
   }
 
   .about {
-    padding: 20px;
+    padding: unset;
     overflow-y: hidden;
+    width: 100vw;
   }
   .skill-col,
   .skill-item {

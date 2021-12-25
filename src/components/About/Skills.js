@@ -70,7 +70,7 @@ function Skills() {
         </div>
       </div>
       <div className="familar-with">
-        <p className="center">Familar with</p>
+        <p className="center">Familiar with</p>
         <ul>
           <li>NodeJS</li>
           <li>Express</li>
